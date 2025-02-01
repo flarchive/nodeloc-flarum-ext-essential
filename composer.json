@@ -1,0 +1,45 @@
+{
+    "name": "nodeloc/flarum-ext-essential",
+    "description": "Set essential discussions",
+    "type": "flarum-extension",
+    "require": {
+        "flarum/core": "^1.8.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "James",
+            "homepage": "https://www.nodeloc.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/nodeloc",
+        "source": "https://github.com/nodeloc",
+        "forum": "https://www.nodeloc.com"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nodeloc\\Essential\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Essential discussion",
+            "category": "feature",
+            "icon": {
+                "name": "fa-solid fa-star-of-david",
+                "backgroundColor": "#008000",
+                "color": "#fff"
+            }
+        },
+        "flarum-cli": {
+            "modules": {
+                "githubActions": true
+            }
+        }
+    },
+    "scripts-descriptions": {
+        "analyse:phpstan": "Run static analysis"
+    }
+}
