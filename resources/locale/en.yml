@@ -1,0 +1,23 @@
+core:
+  forum:
+    index_sort:
+      essential_button: Essential
+
+nodeloc-essential:
+  forum:
+    user:
+      essential_count: "{count} Essential Posts"
+    modal_set_essential:
+      title: Set essential
+      submit: Submit
+      is_essential: Is essential?
+      label: Set this discussion to essential
+    discussion_controls:
+      essential_button: Set essential
+    tooltip:
+      badge: Essential
+  admin:
+      permissions:
+        set_essential: Set essential
+      settings:
+        reward_money: How many money will reward
